@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { X, ExternalLink, Image as ImageIcon } from 'lucide-react';
 import BrandIcon from './BrandIcon';
+import project1 from '../assets/project1.png';
 
 export default function ProjectModal({ project, onClose }) {
   // Close on Escape, and lock background scroll while open
@@ -41,9 +42,9 @@ export default function ProjectModal({ project, onClose }) {
           <X size={16} />
         </button>
 
-        {project.image ? (
+        {project.image || project1 ? (
           <img
-            src={project.image}
+            src={project.image || project1}
             alt={project.name}
             className="w-full h-44 object-cover rounded-xl mb-5"
           />

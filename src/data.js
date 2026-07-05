@@ -2,6 +2,10 @@
 // Edit this file to update text, links, skills, and project info.
 // No need to touch the components for content changes.
 
+import project1 from './assets/project1.png';
+import project2 from './assets/project2.png';
+import project3 from './assets/project3.png';
+
 export const EMAIL = "tajuddinrafi76@gmail.com";
 export const PHONE = "+8801602076400";
 export const WHATSAPP = "8801602076400";
@@ -95,7 +99,7 @@ export const PROJECTS = [
     name: "CitySync",
     tagline:
       "Civic issue-reporting platform for citizens and local authorities",
-    image: "",
+    image: project1,
     description:
       "CitySync lets citizens report local infrastructure problems -- potholes, broken streetlights, waste issues -- and track their resolution in real time. It features role-based dashboards for citizens, municipal staff, and admins, JWT-based authentication, and Stripe payments for priority processing.",
     stack: [
@@ -118,7 +122,7 @@ export const PROJECTS = [
     id: "zapper",
     name: "Zapper",
     tagline: "Parcel delivery platform with live service-area mapping",
-    image: "",
+    image: project2,
     description:
       "Zapper connects users, riders, and admins through role-based workflows for parcel delivery. It uses Leaflet for interactive real-time service-area maps, Firebase Authentication for onboarding, and Stripe for payments across the delivery lifecycle.",
     stack: [
@@ -142,7 +146,7 @@ export const PROJECTS = [
     id: "toytopia",
     name: "Toytopia",
     tagline: "Responsive storefront UI with Firebase authentication",
-    image: "",
+    image: project3,
     description:
       "Toytopia is a toy storefront front-end featuring Firebase authentication (including Google Sign-In), protected routes, and a fully responsive UI with carousels and marquee sections.",
     stack: [

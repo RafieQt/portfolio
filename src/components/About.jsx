@@ -1,4 +1,4 @@
-import { Trophy } from 'lucide-react';
+// import { Trophy } from 'lucide-react';
 import Section from './Section';
 import { YOUTUBE_ID } from '../data';
 
@@ -21,12 +21,12 @@ export default function About() {
             TechnoXian World Robotics Championship at university, coordinating my team to a
             runner-up finish.
           </p>
-          <div className="flex items-center gap-2 mt-5">
+          {/* <div className="flex items-center gap-2 mt-5">
             <Trophy size={18} className="text-terracotta" />
             <span className="font-mono text-xs text-umber/60 dark:text-cream/60">
               TECHNOXIAN WORLD ROBOTICS CHAMPIONSHIP -- RUNNERS-UP
             </span>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex-1 min-w-[280px]">

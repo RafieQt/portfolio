@@ -3,6 +3,7 @@ import { Image as ImageIcon } from 'lucide-react';
 import Section from './Section';
 import ProjectModal from './ProjectModal';
 import { PROJECTS } from '../data';
+import project1 from '../assets/project1.png';
 
 export default function Projects() {
   const [selected, setSelected] = useState(null);
@@ -15,12 +16,12 @@ export default function Projects() {
             key={p.id}
             className="bg-white dark:bg-umber border border-umber/15 dark:border-sage/30 rounded-2xl p-6 flex flex-col"
           >
-            {p.image ? (
-              <img src={p.image} alt={p.name} className="w-full h-40 object-cover rounded-lg mb-4" />
+            {p.image || project1 ? (
+              <img src={p.image || project1} alt={p.name} className="w-full h-40 object-cover rounded-lg mb-4" />
             ) : (
               <div className="w-full h-40 rounded-lg mb-4 border border-dashed border-umber/25 dark:border-sage/40 flex flex-col items-center justify-center gap-1.5 text-umber/40 dark:text-cream/40">
                 <ImageIcon size={20} />
-                <span className="font-mono text-[10px]">ADD PROJECT IMAGE</span>
+                <span className="font-mono text-[10px]">NO IMAGE</span>
               </div>
             )}
 
