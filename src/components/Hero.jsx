@@ -29,6 +29,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-3 mb-7">
             <a
               href={RESUME_URL}
+              download="CS_Resume.pdf"
               className="inline-flex items-center gap-2 bg-terracotta text-cream rounded-lg px-5 py-3 font-semibold"
             >
               <Download size={16} /> Download Resume

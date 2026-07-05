@@ -17,7 +17,7 @@ export default function App() {
     <div className={theme === 'dark' ? 'dark' : ''}>
       <div className="bg-cream dark:bg-umberdark text-umber dark:text-cream min-h-screen transition-colors duration-300 font-body">
         <Navbar theme={theme} onToggleTheme={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
-        <main className="max-w-5xl mx-auto px-5 pt-24">
+        <main className="max-w-5xl mx-auto px-5">
           <Hero />
           <About />
           <Skills />

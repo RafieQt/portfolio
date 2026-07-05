@@ -14,7 +14,7 @@ export default function Navbar({ theme, onToggleTheme }) {
   };
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-cream/95 dark:bg-umberdark/95 backdrop-blur border-b border-umber/15 dark:border-sage/30">
+    <header className="sticky top-0 z-50 bg-cream dark:bg-umberdark border-b border-umber/15 dark:border-sage/30">
       <div className="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
         <button
           onClick={() => scrollToSection('home')}

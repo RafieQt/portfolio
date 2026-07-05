@@ -7,7 +7,7 @@ export default function SkillIcon({ name, slug, icon, color }) {
   // If a direct icon URL is provided (Icons8 or custom SVG)
   if (icon && !failed) {
     return (
-      <div className="w-7 h-7 rounded-md bg-cream dark:bg-cream/90 flex items-center justify-center p-1">
+      <div className="w-7 h-7 rounded-md bg-[#F7F1DE] flex items-center justify-center p-1">
         <img
           src={icon}
           alt={name}
@@ -23,7 +23,7 @@ export default function SkillIcon({ name, slug, icon, color }) {
   // fallback to simpleicons
   if (slug && !failed) {
     return (
-      <div className="w-7 h-7 rounded-md bg-cream dark:bg-cream/90 flex items-center justify-center p-1">
+      <div className="w-7 h-7 rounded-md bg-[#F7F1DE] flex items-center justify-center p-1">
         <img
           src={`https://cdn.simpleicons.org/${slug}/${color || "9D6638"}`}
           alt={`${name} logo`}

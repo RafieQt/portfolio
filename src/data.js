@@ -13,8 +13,7 @@ export const LINKEDIN_URL =
 // (the part after "v=" in a YouTube URL)
 export const YOUTUBE_ID = "";
 
-// TODO(Rafi): replace with the hosted path/link to your resume PDF once ready
-export const RESUME_URL = "#";
+export const RESUME_URL = "/CS_Resume.pdf";
 
 export const NAV_ITEMS = [
   { id: "home", label: "Home" },
